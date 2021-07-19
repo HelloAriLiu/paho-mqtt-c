@@ -1,7 +1,8 @@
 # paho-mqtt-c
 paho c的MQTT客户端连接流程整理记录
 
-## 说明
+## 文件夹说明
+
 >examples：测试的示例  
 >sample: 官方示例-个人觉得比较乱  
 >src ：源码-有部分修改，编译通过  
