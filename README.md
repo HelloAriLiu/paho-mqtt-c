@@ -2,11 +2,11 @@
 paho c的MQTT客户端连接流程整理记录
 
 ## 说明
->examples：测试的示例
->sample: 官方示例-个人觉得比较乱
->src ：源码-有部分修改，编译通过
+>examples：测试的示例  
+>sample: 官方示例-个人觉得比较乱  
+>src ：源码-有部分修改，编译通过  
 
-
+  
 ## 接口
 >重写接口整理：
 >>连接：__`int mqtt_connect(void)`__  
