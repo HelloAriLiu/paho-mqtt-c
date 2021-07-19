@@ -1,0 +1,7 @@
+#ifndef VERSIONINFO_H
+#define VERSIONINFO_H
+
+#define BUILD_TIMESTAMP "2021年 07月 08日 星期四 16:23:06 CST"
+#define CLIENT_VERSION  "1.3.9"
+
+#endif /* VERSIONINFO_H */
