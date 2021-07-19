@@ -3,14 +3,14 @@ paho c的MQTT客户端连接流程整理记录
 
 ## 说明
 >接口整理：
->>连接：__`int mqtt_connect(void)`__ 
->>订阅：__`int mqtt_subscribe(void)`__ 
->>发布：__`int mqtt_publish(char *pubMsg, int pubMsgLen)`__ 
->>发布：__`void mqtt_state_proc(void)`__ 
+>>连接：__`int mqtt_connect(void)`__  
+>>订阅：__`int mqtt_subscribe(void)`__  
+>>发布：__`int mqtt_publish(char *pubMsg, int pubMsgLen)`__  
+>>发布：__`void mqtt_state_proc(void)`__  
 
 
 ### 示例
-__`/*
+>__`/*
  * @Description :  
  * @FilePath: /paho-test/examples/my-mqtt-test.c
  * @Author:  LR
@@ -245,5 +245,6 @@ int main(void)
         mqtt_state_proc();
         sleep(2);
     }
-}`__ 
+}
+>`__ 
 
