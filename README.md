@@ -10,7 +10,7 @@ paho c的MQTT客户端连接流程整理记录
 
 
 ### 示例
->__`/*
+__`/*
  * @Description :  
  * @FilePath: /paho-test/examples/my-mqtt-test.c
  * @Author:  LR
@@ -245,6 +245,5 @@ int main(void)
         mqtt_state_proc();
         sleep(2);
     }
-}
->`__ 
+}`__  
 
